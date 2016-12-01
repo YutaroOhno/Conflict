@@ -11,8 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema.define(version: 20161130150658) do
+ActiveRecord::Schema.define(version: 20161201022115) do
 
   create_table "aaas", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -24,7 +23,17 @@ ActiveRecord::Schema.define(version: 20161130150658) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "fffs", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "jjjs", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "llls", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
